@@ -1,4 +1,8 @@
 {
+  "name": "mothers-day-2022",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Nicholas Berlette <nick@berlette.com>",
   "private": true,
   "scripts": {
     "build": "nuxt build",
