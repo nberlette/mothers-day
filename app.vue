@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "🌷 Happy Mother's Day! 🌷",
+  title: "Happy Mother's Day! 🌷",
   meta: [
     { charset: 'utf-8' },
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -8,7 +8,7 @@ useHead({
       hid: 'description',
       name: 'description',
       content:
-        "Just wishing a Happy Mother's Day to a really special lady. I love you Mom, thanks for putting up with me.",
+        "Just wishing a Happy Mother's Day to a really special lady. I love you Mom.",
     },
   ],
   link: [
@@ -40,7 +40,7 @@ useHead({
         flex flex-col flex-wrap
         justify-evenly
         place-items-center
-        w-[90vw]
+        w-screen
         align-center
         gap-y-10
         mx-auto
@@ -48,14 +48,14 @@ useHead({
         top-[10%]
         left-[20%]
         -translate-x-[50%] -translate-y-[20%]
-        bg-white/50
+        bg-white/75
         rounded-2xl
         px-20
         py-25
         shadow-lg
-        group-hover:(shadow-2xl
-        bg-white/80)
-        duration-300
+        hover:(shadow-2xl
+        bg-white/90)
+        duration-700
         transition-all
         ease-in
       "
